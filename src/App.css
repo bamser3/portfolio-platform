@@ -1,0 +1,130 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f1119;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  min-height: 100%;
+}
+
+body {
+  padding: 2rem;
+}
+
+.app-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  gap: 2rem;
+}
+
+.form-section {
+  min-height: 400px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #2b2e3a, #1f2230);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project-form input,
+.project-form textarea {
+  display: block;
+  width: 90%;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #3a3e4c;
+  border-radius: 8px;
+  background-color: #1f2230;
+  color: #fff;
+}
+
+.project-form textarea {
+  min-height: 10em;
+}
+
+.project-form input::placeholder,
+.project-form textarea::placeholder {
+  color: #a0a3b0;
+}
+
+.project-form button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #234efd, #2e4ba9);
+  color: #fff;
+  cursor: pointer;
+}
+
+.project-form button:hover {
+  background: linear-gradient(180deg, #3b56c6, #36436e);
+}
+
+.project-list-section {
+  padding: 2rem;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #2e3240, #232632);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.search-bar {
+  width: 90%;
+  margin-bottom: 1.5rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #3a3e4c;
+  background-color: #1f2230;
+  color: #fff;
+}
+
+.search-bar::placeholder {
+  color: #a0a3b0;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-card {
+  display: flex;
+  align-items: center; /* center vertically */
+  gap: 1rem;
+  padding: 1rem;
+  background: linear-gradient(180deg, #262b3a, #1e2130);
+  border-radius: 12px;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 25px rgba(120, 140, 255, 0.05);
+  text-shadow: 0 0 25px rgba(120, 140, 255, 0.25);
+}
+
+.project-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #e0e2ff;
+  background: linear-gradient(180deg, #8faaff, #4c6fff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.project-info p {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.95rem;
+  color: #a0a3b0;
+}
